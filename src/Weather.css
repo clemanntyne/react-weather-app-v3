@@ -1,5 +1,44 @@
 .Weather {
   border-radius: 10px;
   border: 1px solid rgb(199, 199, 199);
-  margin: 10px;
+
+  padding: 16px;
+  color: #878787;
+  font-family: Arial, sans-serif;
+}
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  height: 28px;
+  margin: 20px 0 0 0;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  list-style-type: none;
+}
+
+.Weather img {
+  position: relative;
+  top: -15px;
+}
+
+.Weather .temperature {
+  font-weight: 400;
+  color: black;
+  font-size: 64px;
+}
+
+.Weather .unit {
+  position: relative;
+  top: -35px;
+  font-weight: 400;
+  color: black;
 }
